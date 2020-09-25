@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="85.0.4183.8700" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Definitions\Common.Definitions.csproj" />
+    <ProjectReference Include="..\..\Core\ScrapingEngine\Core.ScrapingEngine.csproj" />
+    <ProjectReference Include="..\..\Strategies\Restaurants\Strategies.Restaurants.csproj" />
+  </ItemGroup>
+
+</Project>
